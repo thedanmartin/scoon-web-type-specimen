@@ -1,0 +1,581 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Kanit', sans-serif;
+      scroll-behavior: smooth
+    }
+
+
+    html, body {
+    min-height: 100%;
+    overflow-x:hidden;
+    height: 675px;
+ }
+
+img {
+    max-width: 100%;
+}
+
+a:link { color: black;
+text-decoration: none; }
+a:visited { color: #515151;
+text-decoration: none; }
+a:hover {
+  font-style: oblique;
+  color: #50E8DF;
+text-decoration: none;}
+a:active { text-decoration: none; }
+
+.header{
+  position: relative;
+  background-color: #F2F2F2;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: -50px;
+  height: 50px;
+}
+
+.header:visited {
+  color: pink;
+}
+
+.playerone {
+  position: relative;
+  top: 70px;
+  left:580px;
+  font-size: 40px;
+}
+
+.start {
+  position: relative;
+  left: 750px;
+  top: 10px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.pinkkanit {
+  position: relative;
+  top: -449px;
+  left: 340px;
+  font-size: 300px;
+  font-weight: 700;
+  color: #E92E87;
+  z-index:2;
+}
+
+.bluekanit {
+  position: relative;
+  top: -898px;
+  left: 310px;
+  font-size: 300px;
+  font-weight: 700;
+  color: #50E8DF;
+  z-index:1;
+}
+
+.bigkanit {
+  position: relative;
+  text-align: center;
+  font-size: 300px;
+  font-weight: 700;
+  z-index:3;
+}
+
+.titlebox {
+  position: relative;
+  top: -1300px;
+  left: 200px;
+  width: 1100px;
+  height: 400px;
+  background-color: #F2F2F2;
+  box-shadow: 1px 5px 5px lightgray;
+}
+
+.indepthlook {
+  position: relative;
+  top: -1320px;
+  padding: 20px;
+  margin: 50px;
+  margin-bottom: -1210px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.black {
+  position: relative;
+  width: 50%;
+  margin: 0 25% 0 25%;
+  color: black;
+  top: -80px;
+
+}
+
+.headers {
+  padding: 0;
+  margin-left: 50px;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.firstparas {
+  padding: 0;
+  margin-left: 50px;
+  text-align: left;
+  width: 900px;
+  height: 400px;
+  font-size: 30px;
+}
+
+.pinkcontinue {
+  position: relative;
+  top: -30px;
+  left: 250px;
+  font-size: 180px;
+  font-weight: 900;
+  color: #E92E87;
+  z-index:2;
+}
+
+.bluecontinue {
+  position: relative;
+  top: -330px;
+  left: 280px;
+  font-size: 180px;
+  font-weight: 900;
+  color: #50E8DF;
+  z-index:1;
+}
+
+.bigcontinue {
+  position: relative;
+  top: 220px;
+  left: 260px;
+  font-size: 180px;
+  font-weight: 900;
+  z-index:3;
+}
+
+.titleboxtwo {
+  position: relative;
+  top: -650px;
+  left: 200px;
+  width: 1100px;
+  height: 400px;
+  background-color: #F2F2F2;
+  box-shadow: 1px 5px 5px lightgray;
+}
+
+.experimentalone {
+  position: relative;
+  background-color: #F2F2F2;
+  top: -500px;
+  margin-bottom: 100px;
+  height: 1230px;
+}
+
+.e1text {
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+
+.genre {
+  position: relative;
+  top: -780px;
+  left: 250px;
+  font-size: 380px;
+  font-weight: 700px;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.fps {
+  position: relative;
+  top: 630px;
+  left: 800px;
+  font-size: 70px;
+  font-weight: 100px;
+  color: #E92E87;
+}
+
+.horror {
+  position: relative;
+  top: -170px;
+  left: 400px;
+  font-size: 130px;
+  font-weight: 500px;
+  color: #50E8DF;
+}
+
+.adventure {
+  position: relative;
+  top: -300px;
+  left: 800px;
+  font-size: 50px;
+  font-weight: 500px;
+  color: black;
+}
+
+.puzzle {
+  position: relative;
+  top: -585px;
+  left: 350px;
+  font-size: 80px;
+  font-weight: 800px;
+  color: #E92E87;
+}
+
+.action {
+  position: relative;
+  top: -380px;
+  left: 600px;
+  font-size: 180px;
+  font-weight: 800px bold;
+  color: black;
+}
+
+.tactical {
+  position: relative;
+  top: -980px;
+  left: 500px;
+  font-size: 170px;
+  font-weight: 500px;
+  color: #E92E87;
+}
+
+.rpg {
+  position: relative;
+  top: -1200px;
+  left: 1100px;
+  font-size: 100px;
+  font-weight: 400px;
+  color: #50E8DF;
+}
+
+.fantasy {
+  position: relative;
+  top: -1230px;
+  left: 700px;
+  font-size: 110px;
+  font-weight: 400px;
+  color: black;
+}
+
+.alphabet {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border:1px solid #E92E87;
+    margin: 0 10% 0 10%;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: -300px;
+    left: 0px;
+}
+
+.alphabet:hover {
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.blocktextone {
+  position: relative;
+  background-color: #F2F2F2;
+  top: 0px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+  height: 350px;
+  width: 700px;
+
+}
+.nisivitae {
+  position: relative;
+  font-size: 60px;
+  font-weight: 600;
+  color: #50E8DF;
+  margin-left: 50px;
+  text-align: left;
+  width: 900px;
+  height: 400px;
+}
+
+.nisivitaetext {
+  position: relative;
+  top: -300px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 50px;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.blocktexttwo {
+  position: relative;
+  background-color: #F2F2F2;
+  top: -613px;
+  left: 690px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  height: 350px;
+  width: 700px;
+
+}
+.lorumipsum {
+  position: relative;
+  font-size: 60px;
+  font-weight: 600;
+  color: #50E8DF;
+  margin-left: 50px;
+  text-align: left;
+  width: 900px;
+  height: 400px;
+}
+
+.lorumipsumtext {
+  position: relative;
+  top: -300px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 50px;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.hugetext {
+  font-size: 200px;
+  line-height: 150px;
+}
+
+.housewarming {
+  color: #383838;
+}
+
+.packinghouse {
+  font-weight: 500;
+  color: #535353;
+}
+
+.expurgations {
+  color: #818181;
+}
+
+.questionably {
+  color: #A8A8A8;
+}
+
+.pelargoniums {
+  font-weight: 200;
+  color: #C6C6C6;
+}
+
+.infographicone {
+  margin-top: 500px;
+  margin-bottom: 10px;
+}
+
+.comp {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.infoone {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.infographictwo {
+  margin-top: 100px;
+  padding: 50px;
+  text-align: right;
+  background-color: #F2F2F2;
+}
+
+.console {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.infotwo {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.infographicthree {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.handheld {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.infothree {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.infographicfour {
+  margin-top: 100px;
+  padding: 50px;
+  text-align: right;
+  background-color: #F2F2F2;
+}
+
+.arcade {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.infofour {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.infographicfive {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.vr {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.infofive {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.infographicsix {
+  margin-top: 100px;
+  padding: 50px;
+  text-align: right;
+  background-color: #F2F2F2;
+}
+
+.mobile {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.infosix {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.choosediff {
+  border-style: double;
+  border-width: 10px;
+  background-color: #F2F2F2;
+  padding-top: 40px;
+  width: 420px;
+  height: 600px;
+  position: relative;
+  left: 1000px;
+  top: -2000px;
+}
+
+.choose {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 0px 6px #E92E87;
+}
+
+.diff {
+  font-size: 40px;
+  font-weight: 800;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  margin: 65px;
+  letter-spacing: 3px;
+}
+
+.diff:hover {
+  font-style: italic;
+  color: #50E8DF;
+}
+
+.learnmore {
+  font-size: 100px;
+  font-weight: 800;
+  color: #E92E87;
+  line-height: 80px;
+}
+
+
+.sl {
+  font-size: 50px;
+  font-weight: 600;
+  padding-left: 170px;
+}
+
+.pinkgameover {
+  position: relative;
+  top: 0px;
+  left: 500px;
+  font-size: 180px;
+  font-weight: 900;
+  color: #E92E87;
+  z-index:2;
+}
+
+.bluegameover {
+  position: relative;
+  top: -515px;
+  left: 500px;
+  font-size: 180px;
+  font-weight: 900;
+  color: #50E8DF;
+  z-index:1;
+}
+
+.biggameover {
+  position: relative;
+  top: 550px;
+  left: 500px;
+  font-size: 180px;
+  font-weight: 900;
+  z-index:3;
+}
+
+
+.tryagain {
+  position: relative;
+  top: -550px;
+  left: 780px;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.footer {
+  position: relative;
+  top: -200px;
+  left: 420px;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  overflow: hidden;
+}
